@@ -4,7 +4,9 @@ The simplest way to load and configure [Stripe JS](https://stripe.com/docs/tutor
 
 ## Installation
 
-* npm install --save-dev ember-cli-stripejs
+```
+npm install --save-dev ember-cli-stripejs
+```
 
 ## Configuration
 
