@@ -1,25 +1,24 @@
-# Ember-cli-stripejs
+# ember-cli-stripejs
 
-This README outlines the details of collaborating on this Ember addon.
+The simplest way to load and configure [Stripe JS](https://stripe.com/docs/tutorials/forms) in your ember-cli application.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* npm install --save-dev ember-cli-stripejs
 
-## Running
+## Configuration
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+Add your Stripe public key to your app config. Obviously, don't add your secret key.
 
-## Running Tests
+```javascript
+// config/environment.js
+ENV.stripe = {
+  key: "pk_test_C0sa3IlkLWBlrB8laH2fbqfh"
+};
+```
 
-* `ember test`
-* `ember test --server`
+## Usage
 
-## Building
-
-* `ember build`
+Use Stripe JS has you normally would.
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
