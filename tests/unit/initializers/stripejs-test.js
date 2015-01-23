@@ -21,6 +21,6 @@ test('it works', function() {
   ok(true);
 });
 
-it('throws an error if `config.stripe.key` is not set', function {
+test('throws an error if `config.stripe.key` is not set', function () {
   // TODO
 });
